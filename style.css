@@ -1,3 +1,19 @@
-p{
+*{
 	color: red;
+}
+
+p{
+	color: black;
+}
+
+li{
+	color: blue;
+}
+
+.alerta{
+	color: darkred;
+}
+
+#titulo{
+	font-size: 50px;
 }
