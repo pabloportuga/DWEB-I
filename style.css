@@ -3,11 +3,24 @@
 }
 
 p{
-	color: black;
+	color: white;
+	background: BLACK;
+	margin: 25px;
+	padding: 25px;
+	display: flex;
+	
 }
 
 li{
-	color: blue;
+	display: flex;
+	flex-direction: row;
+	background: blue;
+	margin: 20px;
+	padding: 50px;
+	flex-wrap: wrap;
+	color: white;
+	justify-content: center;
+	
 }
 
 .alerta{
@@ -16,4 +29,33 @@ li{
 
 #titulo{
 	font-size: 50px;
+}
+img{
+	height: auto;
+	width: 300px;
+}
+
+/* rule 1 */
+#subsection {
+  color: blue;
+}
+
+/* rule 2 */
+.main .list {
+  color: red;
+}
+
+h1{
+	display: flex;
+	flex-direction: row;
+	background: red;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+}
+ul{
+	display: flex;
+}
+body{
+	background: black;
 }
