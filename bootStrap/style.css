@@ -1,0 +1,9 @@
+.custom .carousel-item {
+    height: 400px; /* Defina a altura desejada */
+}
+
+.custom .carousel-item img {
+    height: 100%;
+    object-fit: cover; /* Para manter a proporção da imagem */
+    width: 100%; /* Para preencher a largura */
+}
